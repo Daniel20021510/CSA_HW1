@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/daniilles/Documents/CSA/CSA_HW1/container/container.cpp
+cstdlib
+-
+container.h
+/Users/daniilles/Documents/CSA/CSA_HW1/container/container.h
+../functions/additional_functions .h
+/Users/daniilles/Documents/CSA/CSA_HW1/functions/additional_functions .h
+
+/Users/daniilles/Documents/CSA/CSA_HW1/container/container.h
+../objects/plant.h
+/Users/daniilles/Documents/CSA/CSA_HW1/objects/plant.h
+
+/Users/daniilles/Documents/CSA/CSA_HW1/functions/additional_functions .h
+random
+/Users/daniilles/Documents/CSA/CSA_HW1/functions/random
+
+/Users/daniilles/Documents/CSA/CSA_HW1/objects/bush.h
+cstdio
+-
+
+/Users/daniilles/Documents/CSA/CSA_HW1/objects/flower.h
+cstdio
+-
+
+/Users/daniilles/Documents/CSA/CSA_HW1/objects/plant.h
+tree.h
+/Users/daniilles/Documents/CSA/CSA_HW1/objects/tree.h
+bush.h
+/Users/daniilles/Documents/CSA/CSA_HW1/objects/bush.h
+flower.h
+/Users/daniilles/Documents/CSA/CSA_HW1/objects/flower.h
+
+/Users/daniilles/Documents/CSA/CSA_HW1/objects/tree.h
+cstdio
+-
+
